@@ -5,15 +5,18 @@ import { Product } from "./components/Product";
 import { Category } from "./components/Category";
 import Counter from "./components/Counter";
 import ShortCircuit from "./components/ShortCircuit";
+import Students from "./components/Students";
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
-      <Product />
+      {/* <h1>Hello</h1>
+      
       <Category />
       <Counter />
-      <ShortCircuit />
+      <ShortCircuit /> */}
+      {/* <Students /> */}
+      <Product />
     </>
   );
 }
